@@ -8,7 +8,7 @@ if number >= 0:
 
 else:
     lastDigit = ((number * -1) % 10)
-noti = f"The last digit of {number} is {lastDigit}"
+noti = f"Last digit of {number} is {lastDigit}"
 if lastDigit > 5:
     print(f"{noti} and is greater than 5")
 elif lastDigit == 0:
