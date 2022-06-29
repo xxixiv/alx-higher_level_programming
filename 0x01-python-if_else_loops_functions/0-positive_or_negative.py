@@ -3,10 +3,10 @@ import random
 number = random.randint(-10, 10)
 # YOUR CODE HERE
 if number > 0:
-    print(f"{number} is positive\n")
+    print("{} is positive\n".format(number))
 elif number < 0:
-    print(f"{number} is negative\n")
+    print("{} is negative\n".format(number))
 elif number == 0:
-    print(f"{number} is zero\n")
+    print("{} is zero\n".format(number))
 else:
-    print(f"{number} is not an integer\n")
+    print("{} is not an integer\n".format(number))
