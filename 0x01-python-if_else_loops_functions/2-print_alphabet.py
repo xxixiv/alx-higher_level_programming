@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alphabet in ("abcdefghijklmnopqrstuvwxyz"):
-    print(alphabet)
+for char in range(97, 123):
+    print("{:c}".format(char), end='')
